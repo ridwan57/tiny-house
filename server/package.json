@@ -6,6 +6,7 @@
   "scripts": {
     "start": "nodemon src/index.ts",
     "seed": "ts-node src/temp/seed.ts",
+    "clear": "ts-node src/temp/clear.ts",
     "build": "tsc -p ./"
   },
   "keywords": [],
